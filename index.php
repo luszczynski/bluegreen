@@ -11,6 +11,6 @@ imagefilledrectangle($im, 0, 0, 199, 199, $blue);
 
 // Save the image
 header('Content-Type: image/png');
-imagePNG($im, './imagefilledrectangle.png');
+imagePNG($im, '/tmp/imagefilledrectangle.png');
 imagedestroy($im);
 ?>
