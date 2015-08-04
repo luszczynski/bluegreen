@@ -1,3 +1,3 @@
 <?php
-echo "<h2>Olá Mundo v2.0</h2>";
+echo "<h1>Olá Mundo v1.0</h1>";
 ?>
